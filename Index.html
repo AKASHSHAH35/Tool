@@ -1,0 +1,432 @@
+🔄 **HTML Edit Mode** - Processing your edit request...
+
+
+
+1. First, let's update the navigation links:
+
+
+```diff
+<<<<<<< SEARCH
+                <a href="#" class="px-4 py-2 rounded hover:bg-blue-500">Images</a>
+                <a href="#" class="px-4 py-2 rounded hover:bg-blue-500">PDFs</a>
+                <a href="#" class="px-4 py-2 rounded hover:bg-blue-500">Documents</a>
+=======
+                <a href="#image-tools" class="px-4 py-2 rounded hover:bg-blue-500">Images</a>
+                <a href="#pdf-tools" class="px-4 py-2 rounded hover:bg-blue-500">PDFs</a>
+                <a href="#doc-tools" class="px-4 py-2 rounded hover:bg-blue-500">Documents</a>
+>>>>>>> REPLACE
+```
+
+```
+
+2. Let's update the hero section buttons:
+
+
+```diff
+<<<<<<< SEARCH
+                <button class="px-6 py-3 bg-white text-blue-600 rounded-lg font-bold hover:bg-gray-100">Image Tools</button>
+                <button class="px-6 py-3 bg-white text-blue-600 rounded-lg font-bold hover:bg-gray-100">PDF Tools</button>
+=======
+                <a href="#image-tools" class="px-6 py-3 bg-white text-blue-600 rounded-lg font-bold hover:bg-gray-100">Image Tools</a>
+                <a href="#pdf-tools" class="px-6 py-3 bg-white text-blue-600 rounded-lg font-bold hover:bg-gray-100">PDF Tools</a>
+>>>>>>> REPLACE
+```
+
+```
+
+3. Let's update the category section links:
+
+
+```diff
+<<<<<<< SEARCH
+                    <a href="#" class="text-blue-600 hover:underline font-medium">View All</a>
+=======
+                    <a href="#image-tools" class="text-blue-600 hover:underline font-medium">View All</a>
+>>>>>>> REPLACE
+
+```
+```
+
+4. Update for PDF tools:
+
+
+```diff
+<<<<<<< SEARCH
+                    <a href="#" class="text-blue-600 hover:underline font-medium">View All</a>
+=======
+                    <a href="#pdf-tools" class="text-blue-600 hover:underline font-medium">View All</a>
+>>>>>>> REPLACE
+
+```
+```
+
+5. Update for Document tools:
+
+
+```diff
+<<<<<<< SEARCH
+                    <a href="#" class="text-blue-600 hover:underline font-medium">View All</a>
+=======
+                    <a href="#doc-tools" class="text-blue-600 hover:underline font-medium">View All</a>
+>>>>>>> REPLACE
+
+```
+```
+
+6. Update the popular tools section:
+
+
+```diff
+<<<<<<< SEARCH
+                <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+=======
+                <a href="/image-converter" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+>>>>>>> REPLACE
+```
+
+```
+
+
+```diff
+<<<<<<< SEARCH
+                <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+=======
+                <a href="/pdf-merger" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+>>>>>>> REPLACE
+
+```
+```
+
+
+```diff
+<<<<<<< SEARCH
+                <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+=======
+                <a href="/image-resizer" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+>>>>>>> REPLACE
+```
+
+```
+
+
+```diff
+<<<<<<< SEARCH
+                <a href="#" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+=======
+                <a href="/pdf-compressor" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+>>>>>>> REPLACE
+
+```
+
+
+Would you like me to make any additional link-related changes to other sections of the page?Here is the updated HTML content after applying above edits:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online tools for images, PDFs and documents - resize, convert, compress and more">
+    <meta name="keywords" content="image tools, PDF tools, document conversion, image editor, PDF converter">
+    <title>Online Tools - Free Image & PDF Processing | ToolHub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-PLACEHOLDER"></script>
+    <style>
+        .ad-container {
+            background: #f5f5f5;
+            border: 1px dashed #ccc;
+            padding: 20px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .content-card {
+            transition: transform 0.2s;
+        }
+        .content-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">ToolHub</div>
+            <div class="flex space-x-4">
+                <a href="#image-tools" class="px-4 py-2 rounded hover:bg-blue-500">Images</a>
+                <a href="#pdf-tools" class="px-4 py-2 rounded hover:bg-blue-500">PDFs</a>
+                <a href="#doc-tools" class="px-4 py-2 rounded hover:bg-blue-500">Documents</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-16">
+        <div class="container mx-auto text-center px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Free Online Tools for Images & PDFs</h1>
+            <p class="text-xl mb-8">Convert, resize, compress and edit files without installing software</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#image-tools" class="px-6 py-3 bg-white text-blue-600 rounded-lg font-bold hover:bg-gray-100">Image Tools</a>
+                <a href="#pdf-tools" class="px-6 py-3 bg-white text-blue-600 rounded-lg font-bold hover:bg-gray-100">PDF Tools</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Ad Placement (Top) -->
+    <div class="ad-container container mx-auto">
+        <p class="text-gray-500 mb-2">Advertisement</p>
+        <!-- AdSense Code (Will only work when approved) -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-PLACEHOLDER"
+            data-ad-slot="1234567890"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-8 px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Tool Categories -->
+            <div class="content-card bg-white p-6 rounded-lg shadow-md">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3ba1d355-4cf0-47dd-8700-b5c8a1f615d2.png" alt="Image editing and processing tools" class="w-full h-48 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-4">Image Tools</h3>
+                <p class="text-gray-600 mt-2">Resize, convert, compress and edit images in various formats.</p>
+                <div class="mt-4">
+                    <a href="#image-tools" class="text-blue-600 hover:underline font-medium">View All</a>
+                </div>
+            </div>
+
+            <div class="content-card bg-white p-6 rounded-lg shadow-md">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e4711de3-f9c6-435f-b198-dff4f4dd92c2.png" alt="PDF document processing tools" class="w-full h-48 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-4">PDF Tools</h3>
+                <p class="text-gray-600 mt-2">Merge, split, compress and convert PDF documents online.</p>
+                <div class="mt-4">
+                    <a href="#pdf-tools" class="text-blue-600 hover:underline font-medium">View All</a>
+                </div>
+            </div>
+
+            <div class="content-card bg-white p-6 rounded-lg shadow-md">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0929afac-c66c-4577-99b3-26c9cb250feb.png" alt="Document conversion tools" class="w-full h-48 object-cover rounded">
+                <h3 class="text-xl font-semibold mt-4">Document Tools</h3>
+                <p class="text-gray-600 mt-2">Convert between Word, Excel, PowerPoint and other formats.</p>
+                <div class="mt-4">
+                    <a href="#doc-tools" class="text-blue-600 hover:underline font-medium">View All</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Tools -->
+        <div class="max-w-6xl mx-auto my-12">
+            <h2 class="text-2xl font-bold text-center mb-8">Popular Tools</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="/image-converter" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+                    <div class="text-blue-600 text-2xl mb-2">🖼️</div>
+                    <h3 class="font-medium">Image Converter</h3>
+                </a>
+                <a href="/pdf-merger" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+                    <div class="text-blue-600 text-2xl mb-2">📝</div>
+                    <h3 class="font-medium">PDF Merger</h3>
+                </a>
+                <a href="/image-resizer" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+                    <div class="text-blue-600 text-2xl mb-2">📏</div>
+                    <h3 class="font-medium">Image Resizer</h3>
+                </a>
+                <a href="/pdf-compressor" class="bg-white p-4 rounded-lg shadow hover:shadow-md transition-all text-center">
+                    <div class="text-blue-600 text-2xl mb-2">🗜️</div>
+                    <h3 class="font-medium">PDF Compressor</h3>
+                </a>
+            </div>
+        </div>
+
+        <!-- Earnings Proof -->
+        <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md my-12">
+            <h2 class="text-2xl font-bold text-center mb-6">Our Top Earners</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-green-600">₹12,450</div>
+                    <p class="text-gray-600">Highest Daily Earnings</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-blue-600">₹2,78,900</div>
+                    <p class="text-gray-600">Monthly Record</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-purple-600">1000+</div>
+                    <p class="text-gray-600">Active Earners</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upload Button -->
+        <div class="mt-12 text-center">
+            <button onclick="showModal('upload')" class="px-6 py-3 bg-green-500 text-white rounded-lg font-bold hover:bg-green-600 flex items-center justify-center mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+                Upload Your Content
+            </button>
+        </div>
+    </main>
+
+    <!-- Ad Placement (Bottom) -->
+    <div class="ad-container container mx-auto">
+        <p class="text-gray-500 mb-2">Advertisement</p>
+        <!-- AdSense Code (Will only work when approved) -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-PLACEHOLDER"
+            data-ad-slot="0987654321"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- Premium CTA -->
+    <div class="bg-yellow-50 border-t border-yellow-200 py-12">
+        <div class="container mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-4">Join Our Premium Program</h2>
+            <p class="text-xl mb-8">Get higher revenue share and exclusive monetization features</p>
+            <button onclick="showModal('signup')" class="px-8 py-3 bg-orange-500 text-white rounded-lg font-bold hover:bg-orange-600">
+                Upgrade Now
+            </button>
+        </div>
+    </div>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ContentHub",
+      "url": "https://www.contenthub.example",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.contenthub.example/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ContentHub",
+      "url": "https://www.contenthub.example",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.contenthub.example/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">ContentHub</h3>
+                    <p>Share your knowledge and earn money from your content through our advertising program.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/about" class="hover:text-blue-300" title="About ContentHub monetization platform">About Us</a></li>
+                        <li><a href="/terms" class="hover:text-blue-300" title="ContentHub Terms of Service">Terms of Service</a></li>
+                        <li><a href="/privacy" class="hover:text-blue-300" title="ContentHub Privacy Policy">Privacy Policy</a></li>
+                        <li><a href="/sitemap" class="hover:text-blue-300" title="ContentHub Sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p>Email: support@contenthub.example</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>© 2023 ContentHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="loginModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+        <div class="bg-white p-6 rounded-lg w-full max-w-md">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-bold">Login</h2>
+                <button onclick="hideModal('login')" class="text-gray-500 hover:text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <form id="loginForm">
+                <div class="mb-4">
+                    <label for="loginEmail" class="block text-gray-700 mb-2">Email</label>
+                    <input type="email" id="loginEmail" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-6">
+                    <label for="loginPassword" class="block text-gray-700 mb-2">Password</label>
+                    <input type="password" id="loginPassword" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="signupModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+        <div class="bg-white p-6 rounded-lg w-full max-w-md">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-bold">Sign Up</h2>
+                <button onclick="hideModal('signup')" class="text-gray-500 hover:text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <form id="signupForm">
+                <div class="mb-4">
+                    <label for="signupName" class="block text-gray-700 mb-2">Full Name</label>
+                    <input type="text" id="signupName" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="signupEmail" class="block text-gray-700 mb-2">Email</label>
+                    <input type="email" id="signupEmail" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="signupPassword" class="block text-gray-700 mb-2">Password</label>
+                    <input type="password" id="signupPassword" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-6">
+                    <label for="signupConfirmPassword" class="block text-gray-700 mb-2">Confirm Password</label>
+                    <input type="password" id="signupConfirmPassword" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Create Account</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="uploadModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+        <div class="bg-white p-6 rounded-lg w-full max-w-md">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="text-2xl font-bold">Upload Content</h2>
+                <button onclick="hideModal('upload')" class="text-gray-500 hover:text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <form id="uploadForm">
+                <div class="mb-4">
+                    <label for="contentTitle" class="block text-gray-700 mb-2">Title</label>
+                    <input type="text" id="contentTitle" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="contentDescription" class="block text-gray-700 mb-2">Description</label>
+                    <textarea id="contentDescription" class="w-full p-2 border border-gray-300 rounded" rows="4" required></textarea>
+                </div>
+        
